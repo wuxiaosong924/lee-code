@@ -44,7 +44,7 @@ public class FindNumOfValidWords {
             // 将 word 中的字母按照字典序排序并去重
             char[] arr = word.toCharArray();
             Arrays.sort(arr);
-            StringBuffer sb = new StringBuffer();
+            StringBuilder sb = new StringBuilder();
             for (int i = 0; i < arr.length; ++i) {
                 if (i == 0 || arr[i] != arr[i - 1]) {
                     sb.append(arr[i]);
@@ -54,7 +54,7 @@ public class FindNumOfValidWords {
             add(root, sb.toString());
         }
 
-        List<Integer> ans = new ArrayList<Integer>();
+        List<Integer> ans = new ArrayList<>();
         for (String puzzle : puzzles) {
             char required = puzzle.charAt(0);
             char[] arr = puzzle.toCharArray();
@@ -73,7 +73,7 @@ public class FindNumOfValidWords {
             }
             cur = cur.child[ch - 'a'];
         }
-        ++cur.frequency;
+        cur.frequency ++;
     }
 
     // 在回溯的过程中枚举 puzzle 的所有子集并统计答案
