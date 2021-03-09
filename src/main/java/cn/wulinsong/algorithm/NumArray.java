@@ -2,6 +2,7 @@ package cn.wulinsong.algorithm;
 
 /**
  * lee-code 303. 区域和检索 - 数组不可变
+ *  前缀和
  */
 public class NumArray {
 

@@ -5,6 +5,7 @@ import java.util.LinkedList;
 
 /**
  * 503. 下一个更大元素 II
+ *  单调栈
  */
 public class NextGreaterElements {
 

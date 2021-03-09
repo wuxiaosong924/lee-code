@@ -7,6 +7,9 @@ import java.util.Arrays;
  */
 public class MinCut {
 
+    /**
+     * dp
+     */
     public static int minCut(String s) {
         int len = s.length();
         boolean[][] f = new boolean[len][len];

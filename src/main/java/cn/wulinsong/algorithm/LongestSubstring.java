@@ -2,6 +2,7 @@ package cn.wulinsong.algorithm;
 
 /**
  * lee-code 395. 至少有 K 个重复字符的最长子串
+ *  分割 + dfs
  */
 public class LongestSubstring {
 

@@ -5,6 +5,9 @@ package cn.wulinsong.algorithm;
  */
 public class MaxTurbulence {
 
+    /**
+     * 双值记录，dp
+     */
     public static int maxTurbulenceSize(int[] arr) {
         if (arr.length <= 1) {
             return arr.length;
@@ -27,6 +30,9 @@ public class MaxTurbulence {
         return max;
     }
 
+    /**
+     * 模拟比较
+     */
     public static int maxTurbulenceSize1(int[] arr) {
         if (arr.length <= 1) {
             return arr.length;

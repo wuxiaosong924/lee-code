@@ -2,6 +2,7 @@ package cn.wulinsong.algorithm;
 
 /**
  * lee-code 1052. 爱生气的书店老板
+ *  滑动窗口
  */
 public class MaxSatisfied {
 

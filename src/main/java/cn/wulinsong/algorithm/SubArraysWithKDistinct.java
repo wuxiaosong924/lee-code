@@ -2,6 +2,7 @@ package cn.wulinsong.algorithm;
 
 /**
  * lee-code 992. K 个不同整数的子数组
+ *  最少K个不同整数子数组，atMostKDistinct(K) - atMostKDistinct(K - 1) = 正好K个
  */
 public class SubArraysWithKDistinct {
 

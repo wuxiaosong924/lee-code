@@ -2,6 +2,7 @@ package cn.wulinsong.algorithm;
 
 /**
  * lee-code 995. K 连续位的最小翻转次数
+ *  差分法，K + 1 记录前面变化情况
  */
 public class MinKBitFlips {
 

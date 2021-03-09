@@ -2,6 +2,7 @@ package cn.wulinsong.algorithm;
 
 /**
  * lee-code 766. 托普利茨矩阵
+ *  简单遍历
  */
 public class ToeplitzMatrix {
 

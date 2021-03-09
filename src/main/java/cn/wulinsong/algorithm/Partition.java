@@ -15,7 +15,7 @@ public class Partition {
     int n1;
 
     /**
-     * dp
+     * dp + dfs
      */
     public List<List<String>> partition(String s) {
         n1 = s.length();
@@ -49,7 +49,7 @@ public class Partition {
     int n;
 
     /**
-     * 记忆化搜索
+     * dfs + 记忆化搜索
      */
     public List<List<String>> partition1(String s) {
         n = s.length();
